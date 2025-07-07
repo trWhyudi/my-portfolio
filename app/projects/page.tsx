@@ -63,7 +63,7 @@ export default function ProjectsPage() {
           <Badge variant="secondary" className="px-4 py-2">
             My Work
           </Badge>
-          <h1 className="text-4xl lg:text-5xl font-bold bg-gradient-to-r from-emerald-600 via-teal-600 to-cyan-600 bg-clip-text text-transparent">
+          <h1 className="text-4xl lg:text-5xl font-bold bg-gradient-to-r from-emerald-600 via-teal-600 to-cyan-600 bg-clip-text text-transparent pb-1">
             Featured Projects
           </h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">

@@ -52,7 +52,7 @@ export default function SkillsPage() {
           <Badge variant="secondary" className="px-4 py-2">
             My Expertise
           </Badge>
-          <h1 className="text-4xl lg:text-5xl font-bold bg-gradient-to-r from-purple-600 via-pink-600 to-indigo-600 bg-clip-text text-transparent">
+          <h1 className="text-4xl lg:text-5xl font-bold bg-gradient-to-r from-purple-600 via-pink-600 to-indigo-600 bg-clip-text text-transparent pb-1">
             Skills & Abilities
           </h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">

@@ -51,7 +51,7 @@ export default function HomePage() {
 
               <div className="space-y-2">
                 <p className="text-lg text-muted-foreground">Hello, I'm</p>
-                <h1 className="text-5xl lg:text-7xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-600 bg-clip-text text-transparent pb-2">
+                <h1 className="text-5xl lg:text-7xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-600 bg-clip-text text-transparent pb-1">
                   {displayText}
                   <span className="animate-pulse">|</span>
                 </h1>
