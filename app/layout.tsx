@@ -9,6 +9,7 @@ import { Toaster } from "@/components/ui/toaster"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
+  icons: "/images/favicon.png",
   title: "Tri Wahyudi - Web Developer",
   description: "Modern portfolio website showcasing web development and design projects",
   keywords: ["portfolio", "web developer", "react", "next.js", "tailwind css", "typescript"],
