@@ -14,7 +14,7 @@ const projects = [
     title: "Blog JelajahKata",
     description:
       "Blog JelajahKata is a personal blog platform designed to share articles, opinions, and engaging stories on a variety of topics. Built with Laravel and Bootstrap, this application supports article CRUD functionality, a category system, comments, and an admin dashboard for efficient content management.",
-    image: "/projects/proyek1.png?height=300&width=400",
+    image: "/projects/proyek1.png",
     category: "Full Stack",
     technologies: ["JavaScript", "PHP", "Laravel", "Bootstrap", "MySQL"],
     demoUrl: "https://github.com/trWhyudi/Blog-Website-JelajahKata",
@@ -29,7 +29,7 @@ const projects = [
     title: "BookTopia",
     description:
       "BookTopia is a book review website that allows users to browse, rate, and write reviews for the books they have read. Features include book search, ratings, comments, and book data management from the admin panel. It’s perfect for online reading communities.",
-    image: "/projects/proyek2.png?height=300&width=400",
+    image: "/projects/proyek2.png",
     category: "Full Stack",
     technologies: ["JavaScript", "PHP", "Laravel", "Bootstrap", "MySQL"],
     demoUrl: "https://github.com/trWhyudi/Book-Review-Laravel",
@@ -127,7 +127,7 @@ export default function ProjectsPage() {
                         alt={project.title}
                         width={400}
                         height={300}
-                        className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                        className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110 aspect-[4/3]"
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
 
